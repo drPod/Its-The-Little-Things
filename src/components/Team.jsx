@@ -7,7 +7,7 @@ export const Team = (props) => {
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>Meet the Team</h2>
           <p>
-            One sentence description of the team.
+          Our team has the best interest at heart for the children we wish to reach. 
           </p>
         </div>
         <div id="row">
