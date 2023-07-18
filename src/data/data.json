@@ -1,7 +1,7 @@
 {
   "Header": {
     "title": "It's the Little Things",
-    "paragraph": "2 sentence description goes here"
+    "paragraph": "Our mission is to rebrand items that to us may seem “useless” or “basic” as blessings to share with many children who have not been able to receive love from a nurturing home."
   },
   "About": {
     "paragraph": "a long paragraph about us",
@@ -162,23 +162,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Volunteering",
+      "text": "Gives students the opportunity to earn volunteer hours through simple yet community building activities."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Fundraising",
+      "text": "Come together to host events that raise money for our cause."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Teamwork",
+      "text": "Work as a whole to branch out on new ideas and ways to continue to grow our community."
     },
     {
       "icon": "fa fa-magic",
       "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Grow our gratification by seeing the world through others' point of views."
     }
   ]
 }
