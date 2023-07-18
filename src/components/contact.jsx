@@ -141,7 +141,7 @@ export const Contact = (props) => {
                     </a>
                   </li> */}
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
+                    <a href={props.data ? props.data.facebook : "https://instagram.com/itsthelittlethings.nonprofit?igshid=MjEwN2IyYWYwYw=="}>
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
