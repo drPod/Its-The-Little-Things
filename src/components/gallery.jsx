@@ -8,8 +8,7 @@ export const Gallery = (props) => {
         <div className="section-title">
           <h2>Gallery</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Pics of you helping making cards and helping the kids out goes here but i can get rid of this for now if you want? Otherwise this spot is for a one-sentence description of the gallery pics
           </p>
         </div>
         <div className="row">
