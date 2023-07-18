@@ -146,7 +146,9 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href= "mailto: itsthelittlethings.nonprofit@gmail.com"><i className="fa fa-envelope"></i></a>
+                    <a href= "mailto: itsthelittlethings.nonprofit@gmail.com">
+                      <i className="fa fa-envelope"></i>
+                    </a>
                   </li>
                 </ul>
               </div>
