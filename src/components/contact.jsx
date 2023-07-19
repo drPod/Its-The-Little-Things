@@ -165,7 +165,7 @@ export const Contact = (props) => {
             </a>
               </p> */}
         <p>
-            Website developed and maintained by Darsh Poddar
+            &copy; 2023 Website developed and maintained by Darsh Poddar
           </p>
         </div>
       </div>
