@@ -25,7 +25,7 @@ export const Team = (props) => {
             ? props.data.map((d, i) => (
                 <div
                   key={`${d.name}-${i}`}
-                  className="col-lg-3 col-md-4 col-sm-6"
+                  className="col-lg-4 col-md-4 col-sm-6"
                   onMouseEnter={() => handleHover(i)}
                   onMouseLeave={handleHoverExit}
                 >
