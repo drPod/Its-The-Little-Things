@@ -479,6 +479,39 @@ header .intro-text {
   padding: 10px 0 0;
   color: #888;
 }
+
+/* Copy-pasted section starts here */
+#team .team_thumb .team_overlay
+  {
+    background: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    position: absolute;
+    -webkit-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+#team .team_thumb:hover .team_overlay
+  {
+    opacity: 0.8;
+  }
+/* Copy-pasted section ends here */
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;

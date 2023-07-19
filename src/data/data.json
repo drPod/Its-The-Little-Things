@@ -127,22 +127,32 @@
     {
       "img": "img/team/01.jpg",
       "name": "Aanya Avadhanula",
-      "job": "President/Founder"
+      "job": "President/Founder",
+      "email": "asunflower2407@gmail.com"
     },
     {
       "img": "img/team/02.jpg",
       "name": "Shreya Sharma",
-      "job": "Vice President"
+      "job": "Vice President",
+      "email": ""
     },
     {
       "img": "img/team/03.jpg",
       "name": "Rashmi Dullur",
-      "job": "Secretary"
+      "job": "Secretary",
+      "email": ""
     },
     {
       "img": "img/team/04.jpg",
       "name": "Diya Kumar",
-      "job": "Treasurer"
+      "job": "Treasurer",
+      "email": ""
+    },
+    {
+      "img": "img/team/05.jpg",
+      "name": "Darsh Poddar",
+      "job": "Web Developer",
+      "email": "darsh.pod@gmail.com"
     }
   ],
   "Contact": {
