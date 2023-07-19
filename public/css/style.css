@@ -229,16 +229,29 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/intro-bg.jpg) center center fixed;
   background-color: #e5e5e5;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
+  position: relative;
+  overflow: hidden;
 }
+
+.intro::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  z-index: -1;
+  transform: translateZ(-1px) scale(1.5);
+}
+
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
+
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
@@ -248,10 +261,12 @@ a:focus,
   margin-top: 0;
   margin-bottom: 10px;
 }
+
 .intro h1 span {
   font-weight: 800;
   color: #FFC002;
 }
+
 .intro p {
   color: #fff;
   font-size: 22px;
@@ -260,11 +275,13 @@ a:focus,
   margin: 0 auto;
   margin-bottom: 60px;
 }
+
 header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
   text-align: center;
 }
+
 /* Features Section */
 #features {
   background: #f6f6f6;
